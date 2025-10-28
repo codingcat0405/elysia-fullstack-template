@@ -1,0 +1,35 @@
+{
+  "name": "elysia-fullstack-template",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build --compile --target bun --outfile server src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "@elysiajs/eden": "^1.4.3",
+    "@elysiajs/static": "^1.4.2",
+    "@elysiajs/swagger": "^1.2.0",
+    "@mikro-orm/core": "^6.5.9",
+    "@mikro-orm/postgresql": "^6.5.9",
+    "@tanstack/react-query": "^5.90.2",
+    "clsx": "^2.1.1",
+    "elysia": "1.4.13",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^7.9.4",
+    "tailwindcss": "^4.1.16",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "bun-plugin-tailwind": "^0.1.2",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ES2021",
+		"jsx": "preserve",
+		"module": "ES2022",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"types": [
+			"bun-types"
+		],
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"@server": [
+				"./src/index.ts"
+			],
+			"@server/*": [
+				"./src/*"
+			],
+			"@client/*": [
+				"./client/*"
+			]
+		}
+	}
+}
