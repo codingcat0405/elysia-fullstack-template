@@ -1,1 +1,1 @@
-export const ACCESS_TOKEN_KEY = 'question_bank_access_token'
+export const ACCESS_TOKEN_KEY = 'elysia_fullstack_template_access_token'
