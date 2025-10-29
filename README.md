@@ -6,75 +6,69 @@ A modern, production-ready fullstack template built with **Elysia** (backend) an
 
 ### 🔥 **Hot Reload Development**
 
--   **Bun-powered hot reload** for both frontend and backend
--   **No bundlers needed** - Bun handles everything natively
--   **Instant development feedback** with automatic reloading
+- **Bun-powered hot reload** for both frontend and backend
+- **No bundlers needed** - Bun handles everything natively
+- **Instant development feedback** with automatic reloading
 
 ### 🛡️ **Backend (Elysia)**
 
--   **MikroORM** for database management with TypeScript entities
--   **JWT Authentication** with macro-based auth checking
--   **Swagger Documentation** automatically generated
--   **Type-safe API** with full TypeScript support
--   **CORS, Static file serving** and other essential middleware
+- **MikroORM** for database management with TypeScript entities
+- **JWT Authentication** with macro-based auth checking
+- **Swagger Documentation** automatically generated
+- **Type-safe API** with full TypeScript support
+- **CORS, Static file serving** and other essential middleware
 
 ### ⚛️ **Frontend (React)**
 
--   **Auto-bundled with Bun** - no Vite, Webpack, or other bundlers
--   **Hash Router** to avoid conflicts with server routes
--   **Zustand** for global state management
--   **Tailwind CSS** for utility-first styling
--   **Eden Treaty** for end-to-end type safety
+- **Auto-bundled with Bun** - no Vite, Webpack, or other bundlers
+- **Hash Router** to avoid conflicts with server routes
+- **Zustand** for global state management
+- **Tailwind CSS** for utility-first styling
+- **Eden Treaty** for end-to-end type safety
 
 ### 🔐 **Authentication System**
 
--   **JWT-based authentication** with secure token handling
--   **Protected routes** with automatic redirects
--   **User state management** with Zustand store
--   **Login/Register** pages with form validation
+- **JWT-based authentication** with secure token handling
+- **Protected routes** with automatic redirects
+- **User state management** with Zustand store
+- **Login/Register** pages with form validation
 
 ### 🎨 **UI/UX**
 
--   **Modern, responsive design** with Tailwind CSS
--   **Beautiful login/register** forms with validation
--   **User dashboard** with profile information
--   **Professional header/footer** components
+- **Modern, responsive design** with Tailwind CSS
+- **Beautiful login/register** forms with validation
+- **User dashboard** with profile information
+- **Professional header/footer** components
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
--   [Bun](https://bun.sh) installed on your system
+- [Bun](https://bun.sh) installed on your system
 
 ### Installation
 
-1. **Clone the repository**
+1. **Create new project using this template**
 
 ```bash
-git clone https://github.com/codingcat0405/elysia-fullstack-template.git
-cd elysia-fullstack-template
+bun create codingcat0405/elysia-fullstack-template awesome-web-app
+cd awesome-web-app
 ```
 
-2. **Install dependencies**
-
-```bash
-bun install
-```
-
-3. **Set up environment variables**
+2. **Set up environment variables**
 
 ```bash
 cp .env.example .env
 # Edit .env with your database configuration
 ```
 
-4. **Start development server**
+3. **Start development server**
 
 ```bash
 bun run dev
 ```
 
-5. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:3000` to see your application!
 
 ## 📁 Project Structure
@@ -103,20 +97,20 @@ elysia-fullstack-template/
 
 The backend runs on Elysia with the following features:
 
--   **Database**: MikroORM with PostgreSQL support
--   **Authentication**: JWT with macro-based route protection
--   **API Documentation**: Auto-generated Swagger docs
--   **Hot Reload**: Automatic server restart on file changes
+- **Database**: MikroORM with PostgreSQL support
+- **Authentication**: JWT with macro-based route protection
+- **API Documentation**: Auto-generated Swagger docs
+- **Hot Reload**: Automatic server restart on file changes
 
 ### Frontend Development
 
 The frontend is a React SPA with:
 
--   **Bun bundling**: No additional bundlers required
--   **Hash Router**: Prevents conflicts with server routes
--   **Type Safety**: Eden Treaty provides end-to-end types
--   **State Management**: Zustand for global state
--   **Styling**: Tailwind CSS for rapid UI development
+- **Bun bundling**: No additional bundlers required
+- **Hash Router**: Prevents conflicts with server routes
+- **Type Safety**: Eden Treaty provides end-to-end types
+- **State Management**: Zustand for global state
+- **Styling**: Tailwind CSS for rapid UI development
 
 ### Available Scripts
 
@@ -190,13 +184,13 @@ CMD ["bun", "start"]
 
 ## 🎯 Key Technologies
 
--   **Runtime**: [Bun](https://bun.sh) - Fast JavaScript runtime
--   **Backend**: [Elysia](https://elysiajs.com) - High-performance TypeScript framework
--   **Frontend**: [React](https://reactjs.org) - UI library
--   **Database**: [MikroORM](https://mikro-orm.io) - TypeScript ORM
--   **State Management**: [Zustand](https://zustand-demo.pmnd.rs) - Lightweight state management
--   **Styling**: [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
--   **Type Safety**: [Eden Treaty](https://elysiajs.com/eden/overview.html) - End-to-end type safety
+- **Runtime**: [Bun](https://bun.sh) - Fast JavaScript runtime
+- **Backend**: [Elysia](https://elysiajs.com) - High-performance TypeScript framework
+- **Frontend**: [React](https://reactjs.org) - UI library
+- **Database**: [MikroORM](https://mikro-orm.io) - TypeScript ORM
+- **State Management**: [Zustand](https://zustand-demo.pmnd.rs) - Lightweight state management
+- **Styling**: [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- **Type Safety**: [Eden Treaty](https://elysiajs.com/eden/overview.html) - End-to-end type safety
 
 ## 📚 API Documentation
 
@@ -216,10 +210,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
--   [Elysia](https://elysiajs.com) for the amazing TypeScript framework
--   [Bun](https://bun.sh) for the fast JavaScript runtime
--   [MikroORM](https://mikro-orm.io) for the excellent TypeScript ORM
--   [Tailwind CSS](https://tailwindcss.com) for the utility-first CSS framework
+- [Elysia](https://elysiajs.com) for the amazing TypeScript framework
+- [Bun](https://bun.sh) for the fast JavaScript runtime
+- [MikroORM](https://mikro-orm.io) for the excellent TypeScript ORM
+- [Tailwind CSS](https://tailwindcss.com) for the utility-first CSS framework
 
 ---
 
